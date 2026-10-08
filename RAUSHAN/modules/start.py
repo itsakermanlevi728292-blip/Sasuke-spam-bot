@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ", data="help_back")
     ],
     [
-        Button.url("υᴘᴅᴀᴛᴇ", "https://t.me/DEFAULTERS_ERA"),
-        Button.url("sυᴘᴘσʀᴛ", "https://t.me/+gqpAcHXgggxhZjRl")
+        Button.url("υᴘᴅᴀᴛᴇ", "https://t.me/ll_ABOUT_SASUKE_ll"),
+        Button.url("sυᴘᴘσʀᴛ", "https://t.me/+W3WrSwmHeaY5NjM9")
     ],
     [
-        Button.url("𝐃ꜰꜱ", "https://t.me/OG_B4NNER")
+        Button.url("𝐋ᴏʀᴅ", "t.me/sasuke_qt")
     ]
 ]
 
@@ -34,13 +34,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᯓ꯭×𝓓ⲉⲙⲟ꯭ⲛ-֟፝.𓆪᭄ꪾ𑱟• ❰ 𝐃𝐄𝐅𝚲𝐔𝐋𝐓𝐄𝐑𝐒 ❱ #MADARA](https://t.me/Demon_x_coder_aura)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ටිαѕυкє](t.me/sasuke_qt)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://files.catbox.moe/o20q3r.png",
+                    "https://files.catbox.moe/djq796.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
